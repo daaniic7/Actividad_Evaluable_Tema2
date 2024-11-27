@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:repeatMode="restart"
+    android:repeatCount="1">
+<!--ANIMACION DEL VASO -->
+    <!-- Movimiento de sacudida -->
+    <translate
+        android:fromXDelta="-10%"
+        android:toXDelta="10%"
+        android:duration="100"
+        android:repeatCount="5"
+        android:repeatMode="reverse" />
+
+    <!-- Rotación -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="45"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="400" />
+</set>
